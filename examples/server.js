@@ -9,5 +9,5 @@ health.info(function(err, data){
   console.log('Info: ', data);
 });
 
-app.listen(3000);
-console.log('Ready. http://localhost:3000/ping to check health');
+app.listen(3333);
+console.log('Ready. http://localhost:3333/ping to check health');
