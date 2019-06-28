@@ -3,7 +3,6 @@ var express = require('express');
 
 var app = express();
 app.use(health.ping())
-//app.use(app.router);
 
 health.info(function(err, data){
   console.log('Info: ', data);
